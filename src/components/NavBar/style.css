@@ -1,0 +1,33 @@
+.navMarco {
+    background-image: url("../../assets/jpg/fondo-navbar.jpg");
+    display: flex;
+
+}
+.navMarco .navBar {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; 
+
+}
+.navMarco .navBar .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navMarco .navBar .conteiner .__optionConteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMarco .navBar .conteiner .__optionConteiner .__option{
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url("../../assets/jpg/retazo-hoja-menu.jpg");
+    background-attachment: local;
+    background-size: 100% 100%;
+}
+.navMarco .navBar .conteiner .__optionConteiner .__option:hover {
+    box-shadow: 6px 6px 8px violet;
+}

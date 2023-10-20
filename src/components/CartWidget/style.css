@@ -1,0 +1,21 @@
+.NavBar__CartWidget {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url("../../assets/jpg/retazo-hoja-menu.jpg");
+    background-attachment: local;
+    background-size: 100% 100%;
+}
+
+.NavBar__CartWidget--p {
+    font-size: 15px;
+    color: black;
+    background-color: lightcoral;
+    border-radius: 100%;
+    padding: 1px 4px;
+    margin-left: 3px;
+}

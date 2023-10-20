@@ -1,0 +1,29 @@
+.checkOut {
+    background-image: url("../../assets/jpg/hoja-cartulina-2.jpg");
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkOut .checkForm {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkOut .checkForm .input {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.checkOut .checkForm .buyButton {
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 20px;
+}

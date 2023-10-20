@@ -1,0 +1,29 @@
+.carrito {
+    background-image: url("../../assets/jpg/hoja-cartulina-2.jpg");
+    
+    margin: 10px auto;
+    border-radius: 15px;
+    
+    max-width: 1200 px;
+    width: 80%;
+}
+.carrito .carritoCargado {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.carrito .carritoCargado .listaDeProductos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carrito .carritoCargado .botonera {
+    margin: 10px 0px;
+}
+.carrito .carritoCargado .botonera .boton {
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

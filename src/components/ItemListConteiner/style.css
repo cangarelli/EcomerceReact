@@ -1,0 +1,25 @@
+.ItemListConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.ItemListConteiner .--span {
+    color: black;    
+    font-size: 15px;
+    
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    background-image: url("../../assets/jpg/retazo-hoja-menu.jpg");
+    background-attachment: local;
+    background-size: 100% 100%;
+    
+    box-shadow: 6px 6px 8px violet;
+}
