@@ -3,10 +3,14 @@ import { React, useState } from 'react';
 
 // Estilosc
 import "./style.css";
-import { Title } from '../componentBarrel';
+
 
 
 // Componentes propios
+import { Title } from '../componentBarrel';
+import { db } from '../../firebase/config';
+import { addDoc, collection } from 'firebase/firestore';
+
 
 const Contacto = () => {
 
@@ -20,7 +24,17 @@ const Contacto = () => {
     // Logica
     const handleSubmit = (e) => {
         e.preventDefault ();
-        console.log ("Enviar", valores)
+  
+        // Gestion de Firebase
+        const refPedidos = collection (db, "consultas")
+        addDoc (refPedidos, valores)
+          .then((doc) =>{
+                setValores ({
+                    nombre: "",
+                    email: "",
+                    consulta: ""
+                })
+          })
     };
 
     const handleForm = (e) => {
